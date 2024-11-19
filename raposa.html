@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>PixelArt da raposa</title>
+</head>
+
+<body>
+    <div class="container">
+        <img class="imagemFundo" src="./img/FoxPixelArt.png" alt="Imagem da raposa">
+    </div>
+
+    <script src="./js/criadorDeGrid.js"></script>
+    <script src="./js/pintor.js"></script>
+
+    <script>
+        criarGridQuadrada(32)
+
+        
+        let Laranja = "#ff8404"
+        let Preto = "#080404"
+        let Branco = "#f3f3f3"
+        
+        pintarPixel([18, 19, Preto])
+        pintarPixel([48, 49, Preto], [50, Laranja], [51, Preto])
+        pintarPixel([79, 80, Preto], [81, Branco], [82, Laranja], [83, Preto])
+        pintarPixel([110, Preto], [111, Laranja], [112, Branco], [113, 115, Laranja], [116, Preto])
+        pintarPixel([141, Preto], [142, Laranja], [143, Preto], [144, 146, Branco], [147, Laranja], [148, Preto])
+        pintarPixel([162, 163, Preto], [173, Preto], [174, Laranja], [175, Preto], [176, 178, Branco], [179, Laranja], [180, Preto])
+        pintarPixel([193, Preto], [194, 195, Laranja], [196, 197, Preto], [205, Preto], [206, Laranja], [207, Preto], [208, 209, Branco], [210, Laranja], [211, Branco], [212, 213, Preto])
+        pintarPixel([225, Preto], [226, 227, Laranja], [228, Preto], [229, Laranja], [230, 231, Preto], [234, 236, Preto], [237, 238, Laranja], [239, Preto], [240, 241, Branco], [242, 243, Laranja], [244, 249, Preto])
+        pintarPixel([257, Preto], [258, Laranja], [259, 260, Branco], [261, Preto], [262, 263, Laranja], [264, 265, Preto], [266, 271, Laranja], [272, Preto], [273, 275, Laranja], [276, Preto], [277, 280, Laranja], [281, 282, Preto])
+        pintarPixel([289, Preto], [290, 291, Laranja], [292, 293, Branco], [294, Preto], [295, 306, Laranja], [307, Preto], [308, Laranja], [309, Preto], [310, 314, Laranja], [315, Preto])
+        pintarPixel([322, Preto], [323, Laranja], [324, 325, Branco], [326, Preto], [327, 338, Laranja], [339, Preto], [340, Laranja], [341, Preto], [342, 347, Laranja], [348, 349, Preto])
+        pintarPixel([354, Preto], [355, 357, Branco], [358, Preto], [359, 371, Laranja], [372, Preto], [373, 381, Laranja], [382, Preto])
+        pintarPixel([386, Preto], [387, Laranja], [388, Branco], [389, Preto], [390, 403, Laranja], [404, Preto], [405, 413, Laranja],[414, Preto])
+        pintarPixel([418, Preto], [419, 420, Laranja], [421, Branco], [422, 435, Laranja], [436, Branco], [437, Preto], [438, 446, Laranja], [447, Preto])
+        pintarPixel([451, Preto], [452, 466, Laranja], [467, 468, Branco], [469, Preto], [470, 478, Laranja], [479, Preto])
+        pintarPixel([483, 484, Preto], [485, 497, Laranja], [498, Preto], [499, 500, Branco], [501, Preto], [502, 505, Laranja], [506, 507, Preto], [508, 510, Laranja], [511, Preto])
+        pintarPixel([515, Preto], [516, Laranja], [517, Preto], [518, 528, Laranja], [529, Preto], [530, 532, Branco], [533, Preto], [534, 536, Laranja], [537, Preto], [538, 542, Laranja], [543, Preto])
+        pintarPixel([548, Preto], [549, Laranja], [550, Preto], [551, 560, Laranja], [561, Preto], [562, 564, Branco], [565, Preto], [566, 567, Laranja], [568, Preto], [569, 574, Laranja], [575, Preto])
+        pintarPixel([580, Preto], [581, Laranja], [582, Preto], [583, 592, Laranja], [593, Preto], [594, 596, Branco], [597, 599, Preto], [600, 607, Laranja], [608, Preto])
+        pintarPixel([612, 613, Preto], [614, Branco], [615, 625, Laranja], [626, 627, Branco], [628, Preto], [629, 639, Laranja], [640, Preto])
+        pintarPixel([645, Preto], [646, 647, Branco], [648, Laranja], [649, 650, Preto], [651, 656, Laranja], [657, 659, Branco], [660, Preto], [661, 671, Laranja], [672, Preto])
+        pintarPixel([677, Preto], [678, 682, Branco], [683, 684, Preto], [685, 688, Laranja], [689, 690, Branco], [691, Preto], [692, Branco], [693, 702, Laranja], [703, Preto])
+        pintarPixel([710, Preto], [711, 719, Branco], [720, Preto], [721, Branco], [722, 723, Preto], [724, Branco], [725, Laranja], [726, Branco], [727, 734, Laranja], [735, Preto])
+        pintarPixel([743, Preto], [744, 752, Branco], [753, Preto], [754, Laranja], [755, Preto], [756, Branco], [757, Laranja], [758, Branco], [759, 761, Branco], [762, 766, Laranja], [767, Preto])
+        pintarPixel([776, 784, Preto], [785, 786, Laranja], [787, Preto], [788, 792, Branco], [793, 797, Laranja], [798, Preto])
+        pintarPixel([810, Preto], [811, Laranja], [812, 814, Branco], [815, Preto], [816, 818, Laranja], [819, Preto], [820, 825, Branco], [826, Laranja], [827, Branco], [828, Laranja], [829, Preto])
+        pintarPixel([842, Preto], [843, 844, Laranja], [845, Branco], [846, Preto], [847, 849, Laranja], [850, 851, Preto], [852, 858, Branco], [859, Laranja], [860, Preto], [828, Laranja], [829, Preto])
+        pintarPixel([874, Preto], [875, 877, Laranja], [878, Preto], [879, 880, Laranja], [881, Preto], [883, Preto], [884, 890, Branco], [891, Preto], [860, Preto])
+        pintarPixel([907, 909, Preto], [910, 911, Laranja], [912, Preto], [915, Preto], [916, 921, Branco], [922, 923, Preto])
+        pintarPixel([942, 943, Preto], [947, Preto], [948, 951, Branco], [952, 953, Preto])
+        pintarPixel([980, Preto], [981, Branco], [982, 983, Preto])
+        pintarPixel([1012, 1013, Preto])
+    </script>
+</body>
+
+</html>

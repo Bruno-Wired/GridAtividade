@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+}
+
+.container {
+    background-color: #e2e2e2;
+    width: 45vw;
+    height: 45vw;
+    font-size: 50%;
+}
+
+.imagemFundo {
+    position: absolute;
+    background: none;
+    width: 45vw;
+    height: 45vw;
+    opacity: 0;
+}
+
+.numeroPixel {
+    opacity: 0.3;
+}
